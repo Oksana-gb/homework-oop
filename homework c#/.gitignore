@@ -32,43 +32,43 @@ x86/
 [Ll]og/
 [Ll] ogs/
 
-# Visual Studio 2015/2017 каталог кэша / параметров
+# Visual Studio 2015/2017 cache/options directory
 .vs/
-# Раскомментируйте, если у вас есть задачи, которые создают статические файлы проекта в wwwroot
+# Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
-# Автоматически генерируемые файлы Visual Studio 2017
-Файлы\ Сгенерированные/
+# Visual Studio 2017 auto generated files
+Generated\ Files/
 
-# MSTest результаты тестирования
-[Tt] есть [Rr] результат */
-[Bb] uild[Ll] og.*
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
 
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
 
-# Результаты сборки проекта ATL
+# Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
 
-# Результаты тестирования
-Бенчмаркдотнет.Артефакты/
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
 
 # .NET Core
 project.lock.json
 project.fragment.lock.json
-артефакты/
+artifacts/
 
-# ASP.NET Строительные леса
+# ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
 # StyleCop
 StyleCopReport.xml
 
-# Файлы, созданные Visual Studio
+# Files built by Visual Studio
 *_i.c
 *_p.c
 *_h.h
@@ -98,49 +98,49 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Тестовые файлы Chutzpah
+# Chutzpah Test files
 _Chutzpah*
 
-# Файлы кэша Visual C ++
+# Visual C++ cache files
 ipch/
-*.точки доступа
+*.aps
 *.ncb
 *.opendb
 *.opensdf
 *.sdf
-*.файл кэша
+*.cachefile
 *.VC.db
 *.VC.VC.opendb
 
-# Профилировщик Visual Studio
+# Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
 *.sap
 
-# Файлы трассировки Visual Studio
+# Visual Studio Trace Files
 *.e2e
 
-# Локальное рабочее пространство TFS 2012
-$ tf/
+# TFS 2012 Local Workspace
+$tf/
 
-# Инструментарий автоматизации руководства
+# Guidance Automation Toolkit
 *.gpState
 
-# ReSharper - это надстройка для программирования .NET
-*_ReSharper/
-.*[Rr] e[Ss]харпер
-*.Настройки точек.user
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
 
-# TeamCity - это надстройка для сборки
+# TeamCity is a build add-in
 _TeamCity*
 
-# dotCover - это инструмент для покрытия кода
+# DotCover is a Code Coverage Tool
 *.dotCover
 
-# AxoCover - это инструмент для покрытия кода
+# AxoCover is a Code Coverage Tool
 .axoCover/*
-.axoCover!/settings.json
+!.axoCover/settings.json
 
 # Coverlet - это бесплатный кроссплатформенный инструмент для покрытия кода
 покрытие * .json
@@ -169,7 +169,7 @@ AutoTest.Net/
 # DocProject - это надстройка генератора документации
 DocProject/buildhelp/
 DocProject/Help/*.HxT
-DocProject/Справка/*.HxC
+DocProject/Help/*.HxC
 DocProject/Help/*.hhc
 DocProject/Help/*.hhk
 DocProject/Help/*.hhp
@@ -197,16 +197,16 @@ DocProject/Справка/html
 # Пакеты символов NuGet
 *.snupkg
 # Папка пакетов может быть проигнорирована из-за восстановления пакета
-**/[Pp]учетные записи /*
-# кроме build/, который используется в качестве целевого объекта MSBuild.
-**!/[Pp]ackages/build/
-# Раскомментируйте, если необходимо, однако, как правило, он будет восстановлен при необходимости
-#!**/[Pp]учетные записи/репозитории.config
-Файлы project.json # NuGet v3 создают больше игнорируемых файлов
+**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
 *.nuget.props
 *.nuget.targets
 
-# Вывод сборки Microsoft Azure
+# Microsoft Azure Build Output
 csx/
 *.build.csdef
 
