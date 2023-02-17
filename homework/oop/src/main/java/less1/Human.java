@@ -1,6 +1,6 @@
 package less1;
 
-public class Human {
+abstract class Human {
     String name;
     String birthdate;
     String death;
